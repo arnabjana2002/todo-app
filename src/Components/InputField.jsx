@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MdOutlineAddCircleOutline } from "react-icons/md";
 import styles from "./InputField.module.css";
 
 
@@ -45,7 +46,7 @@ function InputField({ onAddClick }) {
             type="button"
             className="btn btn-danger myBtn"
             onClick={addButtonHandler}>
-            Add
+            <MdOutlineAddCircleOutline />
           </button>
         </div>
       </div>

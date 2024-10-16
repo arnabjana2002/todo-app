@@ -1,3 +1,5 @@
+import { MdOutlineDoneOutline } from "react-icons/md";
+
 const TodoItem = ({ name, due, onDoneClick }) => {
   return (
     <>
@@ -13,7 +15,7 @@ const TodoItem = ({ name, due, onDoneClick }) => {
             type="button"
             className="btn btn-success myBtn"
             onClick={() => onDoneClick(name, due)}>
-            Done
+            <MdOutlineDoneOutline />
           </button>
         </div>
       </div>
