@@ -1,0 +1,12 @@
+
+.myRow{
+    margin: 15px 5px;
+}
+
+.myBtn{
+    font-weight: bolder;
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0px 5px;
+    text-align: center;
+}
